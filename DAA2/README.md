@@ -100,3 +100,35 @@ The programs use Python's built-in `time` module to measure execution time.
 
 ```bash
 python "linear search.py"
+python "binary search.py"
+Enter number of elements: 5
+Enter elements:
+10 20 30 40 50
+Enter element to search: 30
+
+Search Result:
+Element found at position: 3
+
+Time Complexity:
+Best Case : O(1)
+Average Case : O(n)
+Worst Case : O(n)
+Execution Time: 2.50 microseconds
+Enter number of elements: 5
+Enter elements:
+50 20 40 10 30
+
+Sorted Array:
+10 20 30 40 50
+
+Enter element to search: 30
+
+Search Result:
+Element found at position: 3
+
+Time Complexity:
+Best Case    : O(1)
+Average Case : O(log n)
+Worst Case   : O(log n)
+Space Complexity: O(1)
+Execution Time: 2.30 microseconds
