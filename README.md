@@ -1,21 +1,22 @@
-# DAA - Sorting and Searching Algorithms in Python
+# DAA - Sorting, Searching, Factorial and Dynamic Programming Algorithms in Python
 
-This repository contains Python implementations of fundamental **Sorting and Searching Algorithms** as part of the **Design and Analysis of Algorithms (DAA) Laboratory**.
+This repository contains Python implementations of fundamental Sorting, Searching, Factorial, and Dynamic Programming Algorithms as part of the Design and Analysis of Algorithms (DAA) Laboratory.
 
 Each program:
 
 * Takes input from the user
-* Performs the required sorting or searching operation
+* Performs the required operation
 * Displays the result
 * Displays Best, Average, and Worst Case Time Complexity
 * Displays Space Complexity
-* Measures execution time in microseconds
+* Measures execution time
 
----
 
-# 📂 Algorithms Included
+--------------------------------------------------
+ALGORITHMS INCLUDED
+--------------------------------------------------
 
-## Sorting Algorithms
+Sorting Algorithms
 
 1. Bubble Sort
 2. Insertion Sort
@@ -24,205 +25,208 @@ Each program:
 5. Quick Sort
 6. Max Heap Sort
 
-## Searching Algorithms
+Searching Algorithms
 
 7. Linear Search
 8. Binary Search
 
----
+Factorial Algorithms
 
-# 🔷 SORTING ALGORITHMS
+9. Factorial using Iterative Method
+10. Factorial using Recursive Method
 
-## 1. Bubble Sort
+Dynamic Programming
+
+11. Making Change Problem
+
+
+==================================================
+SORTING ALGORITHMS
+==================================================
+
+1. BUBBLE SORT
+--------------------------------------------------
 
 Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.
 
-### File
+File:
 
-`bubblesort.py`
+bubblesort.py
 
-### Time Complexity
+Time Complexity:
 
-| Case         | Complexity |
-| ------------ | ---------- |
-| Best Case    | O(n)       |
-| Average Case | O(n²)      |
-| Worst Case   | O(n²)      |
+Best Case       : O(n)
+Average Case    : O(n²)
+Worst Case      : O(n²)
 
-### Space Complexity
+Space Complexity:
 
-`O(1)`
+O(1)
 
----
 
-## 2. Insertion Sort
+--------------------------------------------------
+2. INSERTION SORT
+--------------------------------------------------
 
 Insertion Sort builds the sorted array one element at a time by inserting each element into its correct position.
 
-### File
+File:
 
-`insertionsort.py`
+insertionsort.py
 
-### Time Complexity
+Time Complexity:
 
-| Case         | Complexity |
-| ------------ | ---------- |
-| Best Case    | O(n)       |
-| Average Case | O(n²)      |
-| Worst Case   | O(n²)      |
+Best Case       : O(n)
+Average Case    : O(n²)
+Worst Case      : O(n²)
 
-### Space Complexity
+Space Complexity:
 
-`O(1)`
+O(1)
 
----
 
-## 3. Selection Sort
+--------------------------------------------------
+3. SELECTION SORT
+--------------------------------------------------
 
 Selection Sort repeatedly finds the smallest element from the unsorted part and places it at the beginning.
 
-### File
+File:
 
-`selectionsort.py`
+selectionsort.py
 
-### Time Complexity
+Time Complexity:
 
-| Case         | Complexity |
-| ------------ | ---------- |
-| Best Case    | O(n²)      |
-| Average Case | O(n²)      |
-| Worst Case   | O(n²)      |
+Best Case       : O(n²)
+Average Case    : O(n²)
+Worst Case      : O(n²)
 
-### Space Complexity
+Space Complexity:
 
-`O(1)`
+O(1)
 
----
 
-## 4. Merge Sort
+--------------------------------------------------
+4. MERGE SORT
+--------------------------------------------------
 
-Merge Sort uses the **Divide and Conquer** technique. It divides the array into smaller parts, sorts them, and then merges them.
+Merge Sort uses the Divide and Conquer technique. It divides the array into smaller parts, sorts them, and then merges them.
 
-### File
+File:
 
-`mergesort.py`
+mergesort.py
 
-### Time Complexity
+Time Complexity:
 
-| Case         | Complexity |
-| ------------ | ---------- |
-| Best Case    | O(n log n) |
-| Average Case | O(n log n) |
-| Worst Case   | O(n log n) |
+Best Case       : O(n log n)
+Average Case    : O(n log n)
+Worst Case      : O(n log n)
 
-### Space Complexity
+Space Complexity:
 
-`O(n)`
+O(n)
 
----
 
-## 5. Quick Sort
+--------------------------------------------------
+5. QUICK SORT
+--------------------------------------------------
 
-Quick Sort uses the **Divide and Conquer** technique. It selects a pivot and partitions the array around the pivot.
+Quick Sort uses the Divide and Conquer technique. It selects a pivot and partitions the array around the pivot.
 
-### File
+File:
 
-`quicksort.py`
+quicksort.py
 
-### Time Complexity
+Time Complexity:
 
-| Case         | Complexity |
-| ------------ | ---------- |
-| Best Case    | O(n log n) |
-| Average Case | O(n log n) |
-| Worst Case   | O(n²)      |
+Best Case       : O(n log n)
+Average Case    : O(n log n)
+Worst Case      : O(n²)
 
-### Space Complexity
+Space Complexity:
 
-`O(log n)` average case due to recursion.
+O(log n) average case due to recursion.
 
----
 
-## 6. Max Heap Sort
+--------------------------------------------------
+6. MAX HEAP SORT
+--------------------------------------------------
 
-Max Heap Sort is a comparison-based sorting algorithm that uses a **Max Heap** data structure.
+Max Heap Sort is a comparison-based sorting algorithm that uses a Max Heap data structure.
 
 The algorithm first builds a Max Heap and then repeatedly moves the largest element to the end of the array.
 
-### File
+File:
 
-`maxheapsort.py`
+maxheapsort.py
 
-### Time Complexity
+Time Complexity:
 
-| Case         | Complexity |
-| ------------ | ---------- |
-| Best Case    | O(n log n) |
-| Average Case | O(n log n) |
-| Worst Case   | O(n log n) |
+Best Case       : O(n log n)
+Average Case    : O(n log n)
+Worst Case      : O(n log n)
 
-### Space Complexity
+Space Complexity:
 
-`O(log n)` due to recursive `max_heapify()`.
+O(log n) due to recursive max_heapify().
 
----
 
-# 🔶 SEARCHING ALGORITHMS
+==================================================
+SEARCHING ALGORITHMS
+==================================================
 
-## 7. Linear Search
+7. LINEAR SEARCH
+--------------------------------------------------
 
 Linear Search checks each element of the array one by one until the required element is found or the end of the array is reached.
 
-### File
+File:
 
-`linear search.py`
+linear search.py
 
-### Time Complexity
+Time Complexity:
 
-| Case         | Complexity |
-| ------------ | ---------- |
-| Best Case    | O(1)       |
-| Average Case | O(n)       |
-| Worst Case   | O(n)       |
+Best Case       : O(1)
+Average Case    : O(n)
+Worst Case      : O(n)
 
-### Space Complexity
+Space Complexity:
 
-`O(1)`
+O(1)
 
-### Features
+Features:
 
 * Takes the number of elements as input.
 * Takes array elements from the user.
 * Takes the element to be searched.
 * Displays the position of the element if found.
 * Displays the time complexity.
-* Measures execution time in microseconds.
+* Measures execution time.
 
----
 
-## 8. Binary Search
+--------------------------------------------------
+8. BINARY SEARCH
+--------------------------------------------------
 
 Binary Search is an efficient searching algorithm that repeatedly divides the search range into two halves.
 
 The program sorts the input array before performing Binary Search.
 
-### File
+File:
 
-`binary search.py`
+binary search.py
 
-### Time Complexity
+Time Complexity:
 
-| Case         | Complexity |
-| ------------ | ---------- |
-| Best Case    | O(1)       |
-| Average Case | O(log n)   |
-| Worst Case   | O(log n)   |
+Best Case       : O(1)
+Average Case    : O(log n)
+Worst Case      : O(log n)
 
-### Space Complexity
+Space Complexity:
 
-`O(1)`
+O(1)
 
-### Features
+Features:
 
 * Takes the number of elements as input.
 * Takes array elements from the user.
@@ -231,35 +235,178 @@ The program sorts the input array before performing Binary Search.
 * Displays the sorted array.
 * Displays the position of the element if found.
 * Displays the time complexity.
-* Measures execution time in microseconds.
+* Measures execution time.
 
----
 
-# 📊 Sorting Algorithms Comparison
+==================================================
+FACTORIAL ALGORITHMS
+==================================================
 
-| Algorithm      | Best Case  | Average Case | Worst Case | Space            |
-| -------------- | ---------- | ------------ | ---------- | ---------------- |
-| Bubble Sort    | O(n)       | O(n²)        | O(n²)      | O(1)             |
-| Insertion Sort | O(n)       | O(n²)        | O(n²)      | O(1)             |
-| Selection Sort | O(n²)      | O(n²)        | O(n²)      | O(1)             |
-| Merge Sort     | O(n log n) | O(n log n)   | O(n log n) | O(n)             |
-| Quick Sort     | O(n log n) | O(n log n)   | O(n²)      | O(log n) Average |
-| Max Heap Sort  | O(n log n) | O(n log n)   | O(n log n) | O(log n)         |
+9. FACTORIAL USING ITERATIVE METHOD
+--------------------------------------------------
 
----
+The iterative method calculates the factorial using a for loop.
 
-# 🔎 Searching Algorithms Comparison
+File:
 
-| Algorithm     | Best Case | Average Case | Worst Case | Space |
-| ------------- | --------- | ------------ | ---------- | ----- |
-| Linear Search | O(1)      | O(n)         | O(n)       | O(1)  |
-| Binary Search | O(1)      | O(log n)     | O(log n)   | O(1)  |
+factorial_iterative.py
 
----
+Example:
 
-# 📁 Project Structure
+For n = 5:
 
-```text
+5! = 5 × 4 × 3 × 2 × 1 = 120
+
+Time Complexity:
+
+Best Case       : O(n)
+Average Case    : O(n)
+Worst Case      : O(n)
+
+Space Complexity:
+
+O(1)
+
+The iterative method uses less memory because it does not require recursive function calls.
+
+
+--------------------------------------------------
+10. FACTORIAL USING RECURSIVE METHOD
+--------------------------------------------------
+
+The recursive method calculates the factorial by calling the same function repeatedly until the base condition is reached.
+
+File:
+
+factorial_recursive.py
+
+Example:
+
+For n = 5:
+
+5! = 5 × 4 × 3 × 2 × 1 = 120
+
+Time Complexity:
+
+Best Case       : O(n)
+Average Case    : O(n)
+Worst Case      : O(n)
+
+Space Complexity:
+
+O(n)
+
+The recursive method requires additional stack space for each recursive function call.
+
+
+==================================================
+MAKING CHANGE USING DYNAMIC PROGRAMMING
+==================================================
+
+11. MAKING CHANGE PROBLEM
+--------------------------------------------------
+
+The Making Change Problem finds the minimum number of coins required to make a given amount using the available coin denominations.
+
+The problem is solved using the Dynamic Programming approach.
+
+File:
+
+making_change.py
+
+
+--------------------------------------------------
+PROBLEM DESCRIPTION
+--------------------------------------------------
+
+Given a set of coin denominations and a target amount, find the minimum number of coins required to make the target amount.
+
+Example:
+
+Coin Denominations: 1, 2, 5
+Amount: 11
+
+Solution:
+
+5 + 5 + 1 = 11
+
+Minimum Number of Coins = 3
+
+
+--------------------------------------------------
+HOW THE ALGORITHM WORKS
+--------------------------------------------------
+
+1. Create a DP array of size amount + 1.
+2. Initialize all values with infinity.
+3. Set dp[0] = 0 because zero coins are needed to make amount 0.
+4. For every amount from 1 to the target amount:
+   - Check every available coin.
+   - If the coin value is less than or equal to the current amount, calculate the minimum number of coins.
+5. The final value dp[amount] gives the minimum number of coins required.
+
+
+--------------------------------------------------
+COMPLEXITY
+--------------------------------------------------
+
+Let:
+
+n = Number of coin denominations
+amount = Target amount
+
+Best Case       : O(n * amount)
+Average Case    : O(n * amount)
+Worst Case      : O(n * amount)
+
+Space Complexity:
+
+O(amount)
+
+
+==================================================
+ALGORITHMS COMPARISON
+==================================================
+
+SORTING ALGORITHMS
+
+Algorithm       Best Case    Average Case    Worst Case    Space
+
+Bubble Sort     O(n)         O(n²)           O(n²)         O(1)
+Insertion Sort  O(n)         O(n²)           O(n²)         O(1)
+Selection Sort  O(n²)        O(n²)           O(n²)         O(1)
+Merge Sort      O(n log n)   O(n log n)      O(n log n)    O(n)
+Quick Sort      O(n log n)   O(n log n)      O(n²)         O(log n) Average
+Max Heap Sort   O(n log n)   O(n log n)      O(n log n)    O(log n)
+
+
+SEARCHING ALGORITHMS
+
+Algorithm       Best Case    Average Case    Worst Case    Space
+
+Linear Search   O(1)         O(n)            O(n)          O(1)
+Binary Search   O(1)         O(log n)        O(log n)      O(1)
+
+
+FACTORIAL ALGORITHMS
+
+Algorithm       Best Case    Average Case    Worst Case    Space
+
+Iterative       O(n)         O(n)            O(n)          O(1)
+Recursive       O(n)         O(n)            O(n)          O(n)
+
+
+DYNAMIC PROGRAMMING
+
+Algorithm       Best Case       Average Case       Worst Case       Space
+
+Making Change   O(n * amount)   O(n * amount)      O(n * amount)    O(amount)
+
+
+==================================================
+PROJECT STRUCTURE
+==================================================
+
 DAA-Algorithms-Python/
 │
 ├── Sorting Algorithms/
@@ -274,167 +421,136 @@ DAA-Algorithms-Python/
 │   ├── linear search.py
 │   └── binary search.py
 │
+├── Factorial/
+│   ├── factorial_iterative.py
+│   └── factorial_recursive.py
+│
+├── Dynamic Programming/
+│   └── making_change.py
+│
 └── README.md
-```
 
----
 
-# 🛠 Requirements
+==================================================
+FEATURES
+==================================================
+
+* Implements fundamental DAA algorithms in Python.
+* Includes sorting algorithms.
+* Includes searching algorithms.
+* Includes iterative and recursive factorial programs.
+* Includes Making Change using Dynamic Programming.
+* Accepts user input.
+* Displays the result.
+* Displays Best, Average, and Worst Case Time Complexity.
+* Displays Space Complexity.
+* Measures execution time using time.perf_counter().
+* Easy to understand and suitable for DAA laboratory practice.
+
+
+==================================================
+REQUIREMENTS
+==================================================
 
 * Python 3.x
 * No external libraries are required.
 
-The programs use Python's built-in `time` module to measure execution time.
+The programs use Python's built-in time module to measure execution time.
 
----
 
-# ▶️ How to Run
+==================================================
+HOW TO RUN
+==================================================
 
-## Sorting Algorithms
+Sorting Algorithms:
 
-### Bubble Sort
-
-```bash
 python bubblesort.py
-```
 
-### Insertion Sort
-
-```bash
 python insertionsort.py
-```
 
-### Selection Sort
-
-```bash
 python selectionsort.py
-```
 
-### Merge Sort
-
-```bash
 python mergesort.py
-```
 
-### Quick Sort
-
-```bash
 python quicksort.py
-```
 
-### Max Heap Sort
-
-```bash
 python maxheapsort.py
-```
 
----
 
-## Searching Algorithms
+Searching Algorithms:
 
-### Linear Search
-
-```bash
 python "linear search.py"
-```
 
-### Binary Search
-
-```bash
 python "binary search.py"
-```
 
----
 
-# 📥 Sample Input - Sorting
+Factorial Programs:
 
-```text
-Enter number of elements:
-5
+python factorial_iterative.py
 
-Enter elements:
-5 3 1 4 2
-```
+python factorial_recursive.py
 
-# 📤 Sample Output - Sorting
 
-```text
-Sorted Array:
-1 2 3 4 5
+Dynamic Programming:
 
-Time Complexity:
-Best Case    : O(n log n)
-Average Case : O(n log n)
-Worst Case   : O(n log n)
+python making_change.py
 
-Space Complexity:
-O(log n)
 
-Execution Time: 25.67 microseconds
-```
+==================================================
+SAMPLE OUTPUT - ITERATIVE FACTORIAL
+==================================================
 
----
+Enter a number: 5
 
-# 📥 Sample Input - Linear Search
-
-```text
-Enter number of elements: 5
-Enter elements:
-10 20 30 40 50
-
-Enter element to search: 30
-```
-
-# 📤 Sample Output - Linear Search
-
-```text
-Search Result:
-Element found at position: 3
+--- Iterative Method ---
+Factorial = 120
+Execution Time = 0.000002 seconds
 
 Time Complexity:
-Best Case    : O(1)
+Best Case    : O(n)
 Average Case : O(n)
 Worst Case   : O(n)
-
 Space Complexity: O(1)
 
-Execution Time: 2.50 microseconds
-```
 
----
+==================================================
+SAMPLE OUTPUT - RECURSIVE FACTORIAL
+==================================================
 
-# 📥 Sample Input - Binary Search
+Enter a number: 5
 
-```text
-Enter number of elements: 5
-Enter elements:
-50 20 40 10 30
-
-Sorted Array:
-10 20 30 40 50
-
-Enter element to search: 30
-```
-
-# 📤 Sample Output - Binary Search
-
-```text
-Search Result:
-Element found at position: 3
+--- Recursive Method ---
+Factorial = 120
+Execution Time = 0.000002 seconds
 
 Time Complexity:
-Best Case    : O(1)
-Average Case : O(log n)
-Worst Case   : O(log n)
+Best Case    : O(n)
+Average Case : O(n)
+Worst Case   : O(n)
+Space Complexity: O(n)
 
-Space Complexity: O(1)
 
-Execution Time: 2.30 microseconds
-```
+==================================================
+SAMPLE OUTPUT - MAKING CHANGE
+==================================================
 
----
+Enter coin denominations: 1 2 5
+Enter the amount: 11
 
-# 📚 Learning Objectives
+--- Making Change Using Dynamic Programming ---
+Minimum number of coins = 3
+Execution Time = 0.000003 seconds
+
+Time Complexity:
+Best Case    : O(n * amount)
+Average Case : O(n * amount)
+Worst Case   : O(n * amount)
+Space Complexity: O(amount)
+
+
+==================================================
+LEARNING OBJECTIVES
+==================================================
 
 This project helps in understanding:
 
@@ -446,27 +562,43 @@ This project helps in understanding:
 * Max Heap Sort
 * Linear Search
 * Binary Search
+* Factorial using Iterative Method
+* Factorial using Recursive Method
+* Making Change using Dynamic Programming
 * Max Heap and Heapify
 * Divide and Conquer
+* Dynamic Programming
 * Time Complexity Analysis
 * Space Complexity Analysis
 * Execution Time Measurement in Python
 * Comparison of Sorting and Searching Algorithms
 
----
 
-# 🤝 Contributing
+==================================================
+CONCLUSION
+==================================================
+
+This project demonstrates different algorithmic techniques used in Design and Analysis of Algorithms.
+
+Sorting algorithms are used to arrange data efficiently, searching algorithms are used to find elements, factorial programs demonstrate iterative and recursive approaches, and Dynamic Programming is used to solve the Making Change Problem efficiently.
+
+The project also provides time and space complexity analysis for each algorithm, making it useful for understanding algorithm performance.
+
+
+==================================================
+CONTRIBUTING
+==================================================
 
 Contributions are welcome!
 
 Feel free to fork this repository, make improvements, and submit a pull request.
 
----
 
-# 📄 License
+==================================================
+LICENSE
+==================================================
 
 This project is open-source and available under the MIT License.
 
----
 
 ⭐ If you found this project useful, consider giving it a star on GitHub!
